@@ -1,0 +1,26 @@
+{
+  "name": "burgertime",
+  "version": "1.0.0",
+  "description": "Node app using mySQL and handlebars and an ORM",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsstace/BurgerTime.git"
+  },
+  "author": "SAS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tsstace/BurgerTime/issues"
+  },
+  "homepage": "https://github.com/tsstace/BurgerTime#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.15.0"
+  }
+}
