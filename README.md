@@ -10,4 +10,4 @@ A Node application that allows users to input the names of burgers they would li
 - mySQL
 
 # Directory structure:
-![Files](./Images/Structure.PNG)
+![Files](./public/assets/images/Structure.PNG)
