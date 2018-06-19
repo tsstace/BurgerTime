@@ -8,3 +8,6 @@ A Node application that allows users to input the names of burgers they would li
 - Handlebars
 - Body-parser
 - mySQL
+
+# Directory structure:
+![Files](./Images/Structure.PNG)
