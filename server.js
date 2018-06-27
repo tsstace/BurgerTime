@@ -7,7 +7,6 @@ var app = express();
 app.use(express.static(__dirname + "/public"));
 
 //This sets up body-parser
-// parse application/x-www-form-urlencoded 
 app.use(bodyParser.urlencoded({
     extended: true
 }))
@@ -22,10 +21,7 @@ app.set("view engine", "handlebars");
 //Setting up the routes
 var routes = require("./controllers/burgers_controller.js");
 
-app.use("/", routes);
-app.use("/update", routes);
-app.use("/create", routes);
-
+app.use(routes);
 
 //sets up the port as a variable and listens to it
 var port = process.env.PORT || 3000;
