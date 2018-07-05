@@ -13,7 +13,7 @@
 					</pre>
 				</div>
 				<div class="col-xs-3 text-center">
-						<button type="button" class="btn btn-default change-devour" value={{id}} data-devoured={{devoured}}>Devour it!</button>
+						<button type="button" class="btn btn-default change-devour" value={{id}}>Devour it!</button>
 				</div>
 				{{/unless}}
 			  {{/each}}
@@ -32,7 +32,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-xs-12 text-center enter_section">
-			<form action="/burgers/create" method="POST">
+			<form id="stacey-struggle">
 				<input type="text" class="form-control" name="burger_name" value="" id="enter_text">
 				<button type="submit" class="btn btn-primary" id="text-enter-button">Submit</button>
 			</form>
