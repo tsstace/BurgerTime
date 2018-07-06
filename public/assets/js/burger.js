@@ -2,7 +2,6 @@ $(document).ready(function () {
   $(".change-devour").on("click", function (event) {
     var id = $(this).val();
     var devoured = $(this).data("devoured");
-    console.log(devoured);
 
     var newDevourState = {
       devoured: devoured
@@ -26,7 +25,6 @@ $(document).ready(function () {
   $("#stacey-struggle").on("submit", function (event) {
     // Make sure to preventDefault on a submit event.
     event.preventDefault();
-    console.log("I am in here");
 
     var newBurger = {
       burger_name: $("#enter_text").val().trim(),
