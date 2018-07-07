@@ -5,19 +5,16 @@
 var mysql = require("mysql");
 
 // we placed the connections in this source object
-var source = {
-  // localhost
-  localhost: {
-    host: "localhost",
-    port: 3306,
-    user: "root",
-    password: "root",
-    database: "burgers_db"
-  }
+var dbcreds = {
+  host: process.env.DB_HOST,
+  port: process.env.DB_PORT,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASS,
+  database: process.env.DB_DB
 };
 
 // we use source.[name of connection] to hook into mysql
-var connection = mysql.createConnection(source.localhost);
+var connection = mysql.createConnection(dbcreds);
 
 connection.connect(function(err) {
   if (err) {
