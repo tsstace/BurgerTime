@@ -1,6 +1,6 @@
  # :hamburger: BurgerTime :fries:
 
-A simple Node Express application that utilizes Handlebars to render the graphical user interface.  The user can choose from the burgers available to be eaten stored in the database, or they can enter a selection via the text box and add it to the list.  The "devour" button will change the burger's status to eaten and it will move to the other side of the screen.  
+A simple Node Express application that utilizes Handlebars to render the graphical user interface.  The user can choose from the burgers available to be eaten (stored in the database), or they can enter a selection via the text box and add it to the list.  The "devour" button will change the burger's status to eaten and it will move to the other side of the screen.  
 
 This project utilizes the Model View Controller paradigm; the controller uses Node to route the data and MySQL to perform table operations, while Handlebarsjs generates the html for the page. A high level diagram is included below to illustrate the file structure for the project.
 
