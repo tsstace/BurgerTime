@@ -13,6 +13,7 @@ A Node application that allows users to input the names of burgers they would li
  ![](http://williamavasquez.herokuapp.com/img/node.png)
  ![](http://williamavasquez.herokuapp.com/img/js.png)
  ![](http://williamavasquez.herokuapp.com/img/mysql.png)
+ ![](https://devstickers.com/assets/img/cat/handlebars-js.png)
  ![](https://github.com/heroku/favicon/blob/master/favicon.iconset/icon_32x32.png)
 
 # Node packages included:
