@@ -2,6 +2,7 @@
 
 A Node application that allows users to input the names of burgers they would like to eat.
 
+![Screenshot](./public/assets/images/Burgertime.PNG)
 
 # Technologies utilized:
 - Node.js
