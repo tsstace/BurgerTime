@@ -5,6 +5,7 @@
 			<h1> Eat-The-Burger! </h1>
 		</div>
 		<div class="col-xs-6 text-center" class="task">
+			<h2>Burgers available to eat:</h2>
 			<div class="row">
 			  {{#each burgers}}
 			  	{{#unless devoured}}
@@ -20,9 +21,10 @@
 			</div>
 		</div>
 		<div class="col-xs-6 text-center" class="task">
+			<h2>Burgers that have been previously eaten:</h2>
 			  {{#each burgers}}
 			  	{{#if devoured}}
-			  		<input class="form-control" type="text" placeholder="{{id}} . {{burger_name}}" >
+			  		<input class="form-control text-center" type="text" placeholder="{{id}} . {{burger_name}}" >
 				{{/if}}
 			  {{/each}}
 		</div>
@@ -32,11 +34,11 @@
 <div class="container">
 	<div class="row">
 		<div class="col-xs-12 text-center enter_section">
+			<h3>Don't see a burger you fancy?  Enter your selection in the text box below and click the "Submit" button.</h3>
 			<form id="stacey-struggle">
 				<input type="text" class="form-control" name="burger_name" value="" id="enter_text">
 				<button type="submit" class="btn btn-primary" id="text-enter-button">Submit</button>
 			</form>
-			<p>Enter a burger you want to eat and click the "Submit" button.</p>
 		</div>
 	</div>
 </div> 
