@@ -27,5 +27,12 @@ A Node application that allows users to input the names of burgers they would li
 - Available on github at https://github.com/tsstace/BurgerTime
 - Deployed to Heroku as well at https://git.heroku.com/thawing-stream-55549.git
 
+![](http://williamavasquez.herokuapp.com/img/node.png)
+ ![](http://williamavasquez.herokuapp.com/img/js.png)
+ ![](http://williamavasquez.herokuapp.com/img/mysql.png)
+ ![](https://github.com/heroku/favicon/blob/master/favicon.iconset/icon_32x32.png)
+  ![](./public/assets/images/handlebars.png)
+
+
 # Directory structure:
 ![Files](./public/assets/images/Structure.PNG)
