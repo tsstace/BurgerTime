@@ -12,7 +12,7 @@ This project utilizes the Model View Controller paradigm; the controller uses No
 - Handlebars
 - Heroku
 
-# Node packages included:
+# NPM packages included:
 - Express
 - Handlebars
 - Body-parser
