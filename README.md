@@ -21,7 +21,7 @@ This project utilizes the Model View Controller paradigm; the controller uses No
 
 # Deployment:
 - Available on github at https://github.com/tsstace/BurgerTime
-- Deployed to Heroku as well at https://git.heroku.com/thawing-stream-55549.git
+- Deployed to Heroku as well at https://thawing-stream-55549.herokuapp.com
 
 # Directory file structure:
 ![Files](./public/assets/images/Structure.PNG)
